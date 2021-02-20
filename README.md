@@ -15,7 +15,8 @@ React Router
 Search weather by City name </br>
 Save to favorites</br>
 View favorites & navigate to show page, delete from list</br>
-Show: cityname</br>
+      Show: <br>
+      cityname</br>
       weather conditions</br>
       temp F</br>
       background image</br>
