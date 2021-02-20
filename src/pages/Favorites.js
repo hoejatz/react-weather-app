@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Delete from '../components/Delete';
 
 export default function Favorites(props) {
 	const [favorites, setFavorites] = useState([]);
@@ -24,6 +25,7 @@ export default function Favorites(props) {
 					<div key={favorite._id}>
 						<h2>
 							<Link to={`/${favorite._id}`}>{favorite.name}</Link>
+							<Delete></Delete>
 						</h2>
 					</div>
 				);
