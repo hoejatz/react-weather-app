@@ -6,7 +6,8 @@ Javascript
 React
 Node.js
 Express
-Mongo
+MongoDB
+React Router
 
 ## Approach:
 
@@ -18,6 +19,6 @@ Show: cityname</br>
       weather conditions</br>
       temp F</br>
       background image</br>
-      edit/update between F/C</br>
+      edit/update between F/C, etc, add notes</br>
       Show 5day forecast</br>
    
